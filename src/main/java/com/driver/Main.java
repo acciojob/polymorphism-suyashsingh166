@@ -1,5 +1,5 @@
 package com.driver;
-
+import java.util.*;
 public class Main {
   public class Product{
     public int product(int x, int y) {
@@ -15,10 +15,16 @@ public class Main {
   }
   public static void main(String args[])
   {
-   Product p=new Product(); 
-    p.product(5,6);
-    p.product(5,6,8);
-    p.product(5.7,9.5);
+    Scanner sc=new Scanner(System.in);
+   Product p=new Product();
+    int x=sc.nextInt();
+    int y=sc.nextInt();
+    int z=sc.nextInt();
+    double x=sc.nextDouble();
+    double y=sc.nextDouble();
+    p.product(x,y);
+    p.product(x,y,z);
+    p.product(x,y);
   }
   
 
