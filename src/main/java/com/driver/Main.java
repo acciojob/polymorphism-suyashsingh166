@@ -2,7 +2,6 @@ package com.driver;
 import java.util.*;
 public class Main {
 public static class Product{
-
     public static void prod(int x, int y) {
     System.out.println(x*y);
     }
@@ -19,15 +18,15 @@ public static class Product{
     Scanner sc=new Scanner(System.in);
     int x,y,z;
    double a,b;
+   Product p=new Product();
   
    x=sc.nextInt();
    y=sc.nextInt();
    z=sc.nextInt();
    a=sc.nextDouble();
    b=sc.nextDouble();
-    Product.prod(x,y);
-    Product.prod(x,y,z);
-    Product.prod(a,b);
-   
+    p.prod(x,y);
+    p.prod(x,y,z);
+    p.prod(a,b);  
   }
 }
