@@ -2,13 +2,13 @@ package com.driver;
 import java.util.*;
 public class Main {
 public static class Product{
-    public static void prod(int x, int y) {
+    public static void product(int x, int y) {
     System.out.println(x*y);
     }
-    public static void prod(int x, int y, int z) {
+    public static void product(int x, int y, int z) {
     System.out.println(x*y*z);
     }
-     public static void prod(double a, double b) {
+     public static void product(double a, double b) {
     System.out.println(a*b);
      } 
     
@@ -25,8 +25,8 @@ public static class Product{
    z=sc.nextInt();
    a=sc.nextDouble();
    b=sc.nextDouble();
-    p.prod(x,y);
-    p.prod(x,y,z);
-    p.prod(a,b);  
+    p.product(x,y);
+    p.product(x,y,z);
+    p.product(a,b);  
   }
 }
